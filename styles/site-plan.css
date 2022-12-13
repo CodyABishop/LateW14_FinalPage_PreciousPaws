@@ -53,6 +53,14 @@ header {
   text-align: center;
   color: var(--headline-color-on-color);
   background-color: var(--paragraph-background-color);
+ 
+display:grid;
+grid-template-columns: repeat(5,1fr);
+grid-template-rows:1fr;
+justify-content: center;
+justify-content: space-around;
+align-items: center;
+  
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
